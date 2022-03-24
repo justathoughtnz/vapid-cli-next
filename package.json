@@ -3,7 +3,11 @@
   "version": "0.11.4",
   "license": "MIT",
   "description": "A template-driven content management system",
-  "repository": "vapid/vapid",
+  "homepage": "https://github.com/mixmix/vapid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmix/vapid.git"
+  },
   "author": "Scott Robbin <scott@vapid.com>",
   "bin": {
     "vapid": "./bin/cli.js"
