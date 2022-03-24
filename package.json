@@ -1,9 +1,13 @@
 {
-  "name": "@vapid/cli",
+  "name": "vapid-cli-next",
   "version": "0.11.4",
   "license": "MIT",
   "description": "A template-driven content management system",
-  "repository": "vapid/vapid",
+  "homepage": "https://github.com/mixmix/vapid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmix/vapid.git"
+  },
   "author": "Scott Robbin <scott@vapid.com>",
   "bin": {
     "vapid": "./bin/cli.js"
@@ -13,7 +17,8 @@
     "test": "jest"
   },
   "engines": {
-    "node": ">=10"
+    "node": "^16.8.1",
+    "npm": "8.5.5"
   },
   "keywords": [
     "app",
@@ -95,7 +100,6 @@
     "write-pkg": "^3.1.0"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^23.13.2",

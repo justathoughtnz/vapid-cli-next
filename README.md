@@ -1,3 +1,19 @@
+## FORK
+
+This fork changes:
+- requires Node `^16.8.1`, npm `^8.5.5`
+- published as `vapid-cli-next`
+
+
+To use:
+```bash
+$ npm i npm@8 -g
+$ npm uninstall @vapid/cli -g
+$ npm install vapid-cli-next -g
+```
+
+the CLI commands remain the same (e.g. `vapid start .`)
+
 ## No longer maintained
 
 This repository is no longer maintained. Issues and pull requests will no longer be answered or approved. The repository will remain read-only though, so that users can fork and use elsewhere. Thank you for a good run.
