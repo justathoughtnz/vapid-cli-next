@@ -20,7 +20,7 @@ This repository is no longer maintained. Issues and pull requests will no longer
 
 ---
 
-<img src="http://cdn.vapid.com/logo.svg" width="300px" height="auto" alt="Vapid logo">
+<img src="https://raw.githubusercontent.com/justathoughtnz/vapid-cli-next/master/vapid-beta-logo.png" width="300px" height="auto" alt="Vapid logo">
 
 Vapid is an intentionally simple content management system built on the idea that you can create a custom dashboard without ever leaving the HTML.
 
